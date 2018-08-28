@@ -333,7 +333,7 @@ i{
 /*-- 問い合わせフォーム　　--*/
 
 #contact{
-  height:20rem;
+  height:29rem;
   background-color: lightgray;
 }
 
@@ -342,4 +342,35 @@ i{
   justify-content: center;
   flex-direction: column;
   padding: 3rem 0;
+}
+
+.ContactTitle{
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+form{
+  margin:1rem;
+}
+
+/*-- フッター　　--*/
+footer{
+  height: 10rem;
+  background-color: black;
+  color:white;
+}
+
+.footerbox{
+  padding:3rem;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footerlogo{
+  padding:0;
+}
+
+.copyright{
+  font-weight:200;
 }
