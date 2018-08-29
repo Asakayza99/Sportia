@@ -8,24 +8,37 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link href="resources/css/styles.css" type="text/css" rel="stylesheet">
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-  <link rel="shortcut icon" href="resources/images/SportiaIcon(16x16).ico">
+  <link rel="shortcut icon" href="resources/images/icon.ico">
 </head>
 
 <body>
-  <!--　ヘッダー　-->
-  <nav class="navbar navbar-inverse navbar-fixed-top" id="top">
+  <!--　ヘッダー　デスクトップ-->
+  <nav class="navbar navbar-inverse navbar-fixed-top desktop" id="top">
     <div class="navcont container">
       <div class="navbar-header logobox">
         <a class="navbar-brand navbar-left logo" href="#">
           <h1>Sport<h1 class="color-primary-0">ia</h1></h1>
         </a>
-        <a href="antlers.html"><p class="navbar-text teamnames-menu">鹿島アントラーズ</p></a>
-        <a href="frontale.html"><p class="navbar-text teamnames-menu currentpage">川崎フロンターレ</p></a>
+        <a href="antlers.html"><p class="navbar-text teamnames-menu currentpage">鹿島アントラーズ</p></a>
+        <a href="frontale.html"><p class="navbar-text teamnames-menu ">川崎フロンターレ</p></a>
       </div>
       <div class="navbar-right socialbox">
         <a href="https://www.facebook.com/SportiaSoccer/" target=blank><i class="fab fa-facebook fa-lg"></i></a>
         <a href="https://twitter.com/Sportia10" target=blank><i class="fab fa-twitter fa-lg"> </i></a>
-        <a href="https://www.instagram.com/samuraibluefan/" target=blank><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="https://www.instagram.com/sportia.jp/" target=blank><i class="fab fa-instagram fa-lg"></i></a>
+      </div>
+    </div>
+  </nav>
+
+    <!--　ヘッダー　モバイル　-->
+  <nav class="navbar navbar-inverse navbar-fixed-top mobile" id="top">
+    <div class="navcont container">
+      <div class="navbar-header logobox">
+        <a class="navbar-brand navbar-left logo" href="#">
+          <h1>Sport<h1 class="color-primary-0">ia</h1></h1>
+        </a>
+        <a href="antlers.html"><p class="navbar-text teamnames-menu currentpage">鹿島アントラーズ</p></a>
+        <a href="frontale.html"><p class="navbar-text teamnames-menu ">川崎フロンターレ</p></a>
       </div>
     </div>
   </nav>
@@ -77,7 +90,7 @@
           <!-- 3個目のコンテンツ　youtube動画-->
           <div class="youtube-embed">
             <h3 class="comment">サイドライン視点🚀</h3>
-            <iframe width="600" height="337" src="https://www.youtube.com/embed/dG9-Xa-3rAg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/dG9-Xa-3rAg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
 
           <!-- ４個目のウェブコンテンツ-->
@@ -99,7 +112,7 @@
           </div>
 
           <!-- 右コラムの付属コンテンツ　-->
-          <div class="right-column">
+          <div class="right-column desktop">
 
             <!-- SNSへの誘導　-->
             <div class="sub-heading">
@@ -112,7 +125,7 @@
               <div class="follow-line"><a href="https://twitter.com/Sportia10" target=blank>
                 <i class="SNS fab fa-twitter fa-lg"> </i> <span class="SNS">Twitterページへ</span>
               </a></div>
-              <div class="follow-line"><a href="https://www.instagram.com/samuraibluefan/" target=blank>
+              <div class="follow-line"><a href="https://www.instagram.com/sportia.jp/" target=blank>
                 <i class="SNS fab fa-instagram fa-lg"> </i> <span class="SNS">Instagramページへ</span>
               </a></div>
             </div>
@@ -163,12 +176,17 @@
 
           <footer>
             <div class="container footerbox">
+              <div class="socialbox">
+                <a href="https://www.facebook.com/SportiaSoccer/" target=blank><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="https://twitter.com/Sportia10" target=blank><i class="fab fa-twitter fa-lg"> </i></a>
+                <a href="https://www.instagram.com/sportia.jp/" target=blank><i class="fab fa-instagram fa-lg"></i></a>
+              </div>
               <a class="logo footerlogo" href="#top" style="color:white">
                 <h3>Sport<h3 class="color-primary-0">ia</h3></h3>
               </a>
               <span class="mx-auto copyright">Copyright © Sportia Inc.<span>
-            </div>
-          </footer>
+              </div>
+            </footer>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       </body>
